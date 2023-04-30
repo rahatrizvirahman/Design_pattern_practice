@@ -1,0 +1,4 @@
+## Some Key Points
+- Abstract factory is almost similar to factory method design pattern. But in abstract factory more than one type of object creation method is defined.
+- Sometimes for a concrete factory(a factory class), all type of concrete product class instances may not exist or maybe they are not suitable together.
+    - In our example, it is not appropriate to create humanCrew or the humanShip objects in the AlienArmForceFactory class. Same goes for the HumanArmForceFactory class. That's why we created two separate concrete factory and kept the similar type of objects or dependent object declarations together.
